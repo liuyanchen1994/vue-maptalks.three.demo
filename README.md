@@ -5,7 +5,8 @@ Overview
 
 基于 [maptalks](https://maptalks.org) && [maptalks.three](https://maptalks.org/maptalks.three) && [three](https://threejs.org) 实现的 [mapEffect](https://www.simplelwy.cn/mapEffectDemo) 
 
-![](https://github.com/liuyanchen1994/vue-maptalks.three.demo/tree/master/src/assets/images/mapEffectPic.png)
+![avatar](https://github.com/liuyanchen1994/vue-maptalks.three.demo/tree/master/src/assets/images/mapEffectPic.png)
+
 项目下载和运行
 ----
 
