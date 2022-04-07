@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript" src="vxgplayer.js"></script>
+    <link rel="stylesheet" href="vxgplayer.css">
+</head>
+<body>
+    <div class="vxgplayer" id="vxg_media_player1"
+         url="rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov" autostart controls
+         avsync nmf-src="pnacl/Release/media_player.nmf" nmf-path="media_player.nmf"
+         width="300" height="300">
+    </div>
+    <script type="text/javascript">
+                  window.vxgplayer('vxg_media_player1').stop();
+                window.vxgplayer('vxg_media_player1').src("rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov");
+                window.vxgplayer('vxg_media_player1').play();
+    </script>
+</body>
+</html>
